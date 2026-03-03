@@ -6,7 +6,6 @@ from .models import Car
 from .validators import validation_license_number
 
 
-
 class DriverCreateForm(UserCreationForm):
     class Meta:
         model = get_user_model()
